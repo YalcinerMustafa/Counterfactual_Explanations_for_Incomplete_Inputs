@@ -1,0 +1,39 @@
+{
+  "batch_size": 16,
+  "dataset": "<src.explib.datasets.TabularData object at 0x7f211104aa40>",
+  "device": "cuda",
+  "epochs": 200000,
+  "logging": {
+    "image_shape": [
+      12,
+      1
+    ],
+    "images": false
+  },
+  "model_cfg": {
+    "params": {
+      "base_distribution": "RadialDistribution(loc: torch.Size([12]))",
+      "coupling_layers": 1,
+      "coupling_nn_layers": [
+        12,
+        12
+      ],
+      "masktype": "alternate",
+      "nonlinearity": "ReLU()",
+      "prior_scale": 1.0,
+      "soft_training": false,
+      "split_dim": 6,
+      "training_noise_prior": "Laplace(loc: torch.Size([12]), scale: torch.Size([12]))",
+      "use_lu": true
+    },
+    "type": "<class 'src.veriflow.flows.NiceFlow'>"
+  },
+  "optim_cfg": {
+    "optimizer": "<class 'torch.optim.adam.Adam'>",
+    "params": {
+      "lr": 0.00012146481269868729,
+      "weight_decay": 0.0
+    }
+  },
+  "patience": 100
+}

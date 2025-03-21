@@ -1,0 +1,125 @@
+pytorch2.5.1:Ðn
+á
+onnx::MatMul_0
+onnx::MatMul_12/fc1/MatMul_output_0/fc1/MatMul"MatMul2’/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py(125): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(102): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(130): wrapper
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(139): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(1500): _get_trace_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(904): _trace_and_get_graph_from_model
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(997): _create_jit_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1113): _model_to_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1564): _export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(502): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/__init__.py(375): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(232): train
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(241): <module>
+
+×
+fc1.bias
+/fc1/MatMul_output_0/fc1/Add_output_0/fc1/Add"Add2’/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py(125): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(102): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(130): wrapper
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(139): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(1500): _get_trace_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(904): _trace_and_get_graph_from_model
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(997): _create_jit_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1113): _model_to_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1564): _export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(502): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/__init__.py(375): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(232): train
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(241): <module>
+
+Š
+/fc1/Add_output_0/Relu_output_0/Relu"Relu2×/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(103): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(130): wrapper
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(139): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(1500): _get_trace_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(904): _trace_and_get_graph_from_model
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(997): _create_jit_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1113): _model_to_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1564): _export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(502): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/__init__.py(375): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(232): train
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(241): <module>
+
+á
+/Relu_output_0
+onnx::MatMul_13/fc2/MatMul_output_0/fc2/MatMul"MatMul2’/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py(125): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(104): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(130): wrapper
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(139): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(1500): _get_trace_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(904): _trace_and_get_graph_from_model
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(997): _create_jit_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1113): _model_to_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1564): _export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(502): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/__init__.py(375): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(232): train
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(241): <module>
+
+È
+fc2.bias
+/fc2/MatMul_output_011/fc2/Add"Add2’/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/linear.py(125): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(104): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1726): _slow_forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(130): wrapper
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(139): forward
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1747): _call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/nn/modules/module.py(1736): _wrapped_call_impl
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/jit/_trace.py(1500): _get_trace_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(904): _trace_and_get_graph_from_model
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(997): _create_jit_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1113): _model_to_graph
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(1564): _export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/utils.py(502): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/venv/lib/python3.10/site-packages/torch/onnx/__init__.py(375): export
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(232): train
+/home/mustafa/repos/counterfactuals/plausible_counterfactuals/train_classifier_datasets.py(241): <module>
+
+main_graph*Bfc1.biasJDzÃ¾“N¿*Bfc2.biasJ~ÏJÀDà@*9Bonnx::MatMul_12J P@Ã½Ö,@ 7³¾[å?P'=ý¯¡¿h{u¾Ž1>*)Bonnx::MatMul_13Jò¡ê¾ë¿oª6@-ydÀZ
+onnx::MatMul_0
+
+
+b
+11
+
+
+B

@@ -1,0 +1,42 @@
+commit_hash: f83c60d
+detailed_report_folder_name: plausibility-validity-power-big-20
+experiment_count: 100000
+RUN_ARMIN: False
+RUN_OURS: False
+RUN_FLOW_IN_ONE: False
+RUN_SINGLE_IMPUTE: False
+RUN_DYNAMIC_MONOLITHIC: True
+RUN_KD: False
+timeout_milp: 60
+plausibility_constant_factor: 9.8
+optimize_plausibility: 1.9600000000000002
+optimize_cost: -0.9600000000000002
+FIO_opt_plausibility: 1.9600000000000002
+FIO_opt_cost: -0.9600000000000002
+FIO_opt_imputation: 3
+DM_opt_plausibility: 1.9600000000000002
+DM_opt_cost: -0.9600000000000002
+DM_opt_imputation: 4
+udl_opt_impute_val: 4
+mdl_opt_impute_val: 3
+ldl_opt_impute_val: 2
+classifier_threshold: 0.86
+classifier_thold_factor: 4.3
+imputation_count_within_set: 10
+imputation_set_count: 10
+validity_within_milp: 0.75
+validity_global: 0.75
+lof_neighbor_count: 20
+_Config__use_deep_classifier: True
+_Config__experiment_path: ./experiment_sources/power
+PATH_TO_CLASSIFIER: ./experiment_sources/power/classifier_medium.onnx
+PATH_TO_FLOW: ./experiment_sources/power/flow.onnx
+PATH_TO_FLOW_DENSITY_EST: ./experiment_sources/power/backward_processed.onnx
+DATA_PATH_TRAIN: ./experiment_sources/power/train.csv
+DATA_PATH_VAL: ./experiment_sources/power/val.csv
+DATA_PATH_TEST: ./experiment_sources/power/test.csv
+current_domain: power
+experiment_keys: ['concrete', 'diabetes', 'wine', 'power']
+experiment_paths: {'concrete': './experiment_sources/concrete', 'diabetes': './experiment_sources/diabetes', 'wine': './experiment_sources/wine', 'power': './experiment_sources/power'}
+domain_dimensionality: {'concrete': 9, 'diabetes': 9, 'wine': 12, 'power': 5}
+to_string: <classmethod(<function Config.to_string at 0x7f412c9f3250>)>
